@@ -29,10 +29,10 @@ const Phrase = () => {
                     </div>
                     <div 
                         className="but">
-                        <a 
+                        <button 
                         style={{backgroundColor:`${randomColor}`, color:"black"}} href="" onClick={changephrase}>
                         <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                        </button>
                     </div>
             </div>
         </div>
