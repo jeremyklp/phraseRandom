@@ -25,7 +25,7 @@ a{
 }
 
 .right{
-  text-align: flex-end;
+  text-align: end;
   padding-right: 1vh;
 }
 
@@ -34,7 +34,6 @@ a{
 height: 65px;
 display: flex;
 justify-content: flex-end;
-align-items: flex-end;
 bottom: 0;
 }
 .centrado{
