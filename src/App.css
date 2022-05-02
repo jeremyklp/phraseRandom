@@ -1,0 +1,78 @@
+
+.text{
+  height: 100px;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+.fff{
+  width: 200vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+a{
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.right{
+  text-align: end;
+  padding-right: 1vh;
+}
+
+.but{
+  padding: 5px;
+height: 65px;
+display: flex;
+justify-content: end;
+align-items: flex-end;
+bottom: 0;
+}
+.centrado{
+  box-shadow: 0px 0px  10px 3px black;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  width: 80vh;
+  height: 200px;
+  border-radius: 15px;
+  /*background-color: rgb(255, 255, 255);*/
+}
+ 
+.prueba{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255,255,255)
+}
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
